@@ -1,0 +1,93 @@
+.forms {
+    padding: 100px 0 283px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 485px;
+
+    &__title {
+        padding-bottom: 115px;
+        font-size: 64px;
+        line-height: 66px;
+        color: #292527;
+        font-weight: 500;
+    }
+
+    &__form {
+        margin-bottom: 20px;
+        height: 50px;
+        padding-left: 20px;
+        border: 1px solid #000000;
+
+    }
+
+    &__buttons-form {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 11px;
+    }
+
+    &__help-passward {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__help-password-link {
+        font-size: 15px;
+        line-height: 14px;
+        text-align: center;
+        text-decoration: underline;
+        color: #000000;
+        transition: 0.3s ease;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.buttons-form {
+    color: #FFFFFF;
+    width: 100%;
+
+    &__registration {
+        padding: 10px 0;
+        width: calc(40% - 10px);
+        text-align: center;
+        background-color: #292527;
+        transition: 0.3s ease;
+        font-size: 15px;
+        line-height: 14px;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #171516;
+
+        }
+
+        &:active {
+            transform: scale(0.96);
+        }
+    }
+
+    &__submit {
+        padding: 10px 0;
+        width: calc(60% - 10px);
+        text-align: center;
+        background-color: #FF2C02;
+        font-size: 15px;
+        line-height: 14px;
+        transition: 0.3s ease;
+        color: #FFFFFF;
+
+        &:hover {
+            background: #7c1602;
+        }
+
+        &:active {
+            transform: scale(0.96);
+        }
+
+    }
+
+
+}

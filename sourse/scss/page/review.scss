@@ -1,0 +1,68 @@
+.review {
+    &__container {
+        margin-bottom: 133px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 480px) {
+            margin-bottom: 40px;
+        } 
+         @media (max-width: 320px) {
+            margin-bottom: 25px;
+        }
+    
+
+    .review__title {
+        text-transform: uppercase;
+        font-size: 35px;
+        line-height: 33px;
+        color: #292527;
+        padding-bottom: 67px;
+        text-align: center; 
+        @media (max-width: 992px) {
+            font-size: 25px;
+            line-height: 20px;
+            padding-bottom: 50px;
+        }
+        @media (max-width: 480px) {
+            font-size: 18px;
+            line-height: 20px;
+            padding-bottom: 40px;
+        }
+        @media (max-width: 320px) {
+            font-size: 12px;
+            line-height: 11px;
+            padding-bottom: 10px;
+        }
+
+       
+
+    }
+    
+    .review__cards {
+        display: flex;
+        justify-content: center;
+    
+
+        .review-card__center-card {
+            margin: 0 72px;
+
+            @media (max-width: 992px) {
+                margin: 0 30px;
+            }
+
+            @media (max-width: 480px) {
+                margin: 0 20px;
+            }
+            
+            @media (max-width: 320px) {
+                margin: 0 16px;
+            }
+    }}
+}
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.breadcrumb {
+  border-bottom: 1px solid #C4C4C4;
+  padding: 25px 0; }
+  .breadcrumb__container {
+    display: flex;
+    align-items: center; }
+  .breadcrumb__link {
+    display: inline-block;
+    padding: 0  10px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 14px; }
+
+/*# sourceMappingURL=breadcrumb.css.map */

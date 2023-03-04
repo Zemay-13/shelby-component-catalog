@@ -1,0 +1,54 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+//null
+@import "./reset.scss";
+//cards
+@import "./page/card.scss";
+//raiting
+@import "./page/raiting.scss";
+//page
+@import "./header.scss";
+@import "./mobile-nav-button.scss";
+@import "./mobile-nav.scss";
+@import "./breadcrubs.scss";
+@import "./footer.scss";
+@import "./page/catalog.scss";
+@import "./page/product.scss";
+@import "./page/review.scss";
+@import "./form.scss";
+
+
+/*Utility*/
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    color: #000000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

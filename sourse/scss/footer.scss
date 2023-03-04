@@ -1,0 +1,318 @@
+.footer {
+    background-color: #292527;
+    justify-content: center;
+    padding: 60px 0 60px 0;
+    width: 100%;
+
+    @media (max-width: 680px) {
+        padding: 40px 0 40px 0;
+    }
+
+    @media (max-width: 480px) {
+        display: none;
+    }
+
+    &__top {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 46px;
+        border-bottom: 1px solid #C4C4C4;
+
+        @media (max-width: 680px) {
+            padding-bottom: 35px;
+        }
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        &_bottom {
+            justify-content: space-between;
+        }
+        &_center {
+            justify-content: center;
+        }
+    }
+    &__contact {}
+
+    &__bottom {
+        padding-top: 48px;
+
+        @media (max-width: 680px) {
+            padding-top: 35px;
+        }
+    }
+
+    &__logo {
+
+        &_shelby {
+            width: 159px;
+            @media (max-width: 920px) {
+                width: 140px;
+            }
+            @media (max-width: 680px) {
+                width: 120px;
+            }
+            @media (max-width: 540px) {
+                width: 80px;
+            }
+        }
+
+        &_highland {
+            width: 113px;
+            @media (max-width: 920px) {
+                width: 100px;
+            }
+            @media (max-width: 680px) {
+                width: 80px;
+            }
+            @media (max-width: 540px) {
+                width: 60px;
+            }
+        }
+        &-img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__nav {}
+
+    &__policy-data {
+        display: inline-block;
+        text-align: center;
+        padding-top: 61px;
+        font-size: 12px;
+        line-height: 11px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        width: 25%;
+        transition: 0.15s ease;
+       
+        @media (max-width: 920px) {
+            font-size: 8px;
+            line-height: 6px;
+            
+        }
+        @media (max-width: 746px) {
+            padding-top: 35px;
+            
+        }
+        @media (max-width: 579px) {
+            font-size: 6px;
+            line-height: 4px;
+        }
+       
+    }
+
+    &__policy-data:hover {
+        color: #FF2C02;
+        cursor: pointer;
+    }
+}
+
+.contact {
+
+
+    &__link {
+        color: #FFFFFF;
+        display: block;
+        padding-bottom: 8px;
+        font-size: 21px;
+        line-height: 20px;
+        color: #ffffff;
+        transition: 0.15s ease;
+
+        @media (max-width: 920px) {
+            font-size: 18px;
+            line-height: 16px;
+        }
+
+        @media (max-width: 800px) {
+            font-size: 16px;
+            line-height: 14px;
+        }
+
+        @media (max-width: 680px) {
+            font-size: 14px;
+            line-height: 12px;
+        }
+        @media (max-width: 540px) {
+            font-size: 10px;
+            line-height: 8px;
+        }
+
+    }
+
+    &__link:hover {
+        color: #FF2C02;
+    }
+
+    &__text {
+        font-size: 12px;
+        line-height: 11px;
+        color: #ffffff;
+
+        @media (max-width: 800px) {
+            font-size: 10px;
+            line-height: 9px;
+        }
+
+        @media (max-width: 680px) {
+            font-size: 8px;
+            line-height: 7px;
+        }
+
+    }
+}
+
+.nav {
+
+    list-style-type: none;
+
+    .nav__li {
+
+        padding-bottom: 22px;
+
+        @media (max-width: 680px) {
+            padding-bottom: 14px;
+        }
+        @media (max-width: 620px) {
+            padding-bottom: 8px;
+        }
+        @media (max-width: 550px) {
+            padding-bottom: 6px;
+        }
+    }
+
+    &__link {
+        font-size: 15px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        transition: 0.15s ease;
+
+        @media (max-width: 920px) {
+            font-size: 13px;
+            line-height: 12px;
+        }
+
+        @media (max-width: 800px) {
+            font-size: 12px;
+            line-height: 11px;
+        }
+
+        @media (max-width: 680px) {
+            font-size: 10px;
+            line-height: 9px;
+        }
+        @media (max-width: 620px) {
+            font-size: 9px;
+            line-height: 7px;
+        }
+        @media (max-width: 550px) {
+            font-size: 7px;
+            line-height: 6px;
+        }
+
+    }
+
+    &__link:hover {
+        color: #FF2C02;
+    }
+
+}
+
+//mobile
+
+.footer-mobile {
+    display: none;
+    max-height: 250px;
+    @media (max-width: 480px) {
+        display: flex;
+        align-items: center;
+        background-color: #292527;
+        width: 100%;
+    }
+    &__logo-container{
+        padding-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    &__logo {
+
+        &_shelby {
+            width: 140px; 
+            @media (max-width: 320px) {
+                width: 120px; 
+            }
+        }
+        &_highland {
+            width: 70px;
+            @media (max-width: 320px) {
+                width: 50px; 
+            }
+        }
+        &-img{
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
+
+    &__divider {
+        height: 100%;
+        margin-right: 10%;
+        border: 1px solid #C4C4C4;
+        background-color: #C4C4C4;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        @media (max-width: 320px) {
+            margin-right: 5%;
+        }
+    }
+
+    &__content {
+        
+    }
+
+    &__nav {
+        list-style-type: none;
+    }
+
+    &__li {
+        padding-bottom: 8px;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        transition: 0.15s ease;
+        &_underline{
+            text-decoration: underline; 
+        }
+        &:hover {
+            color: #FF2C02;
+            cursor: pointer;
+        }
+        @media (max-width: 320px) {
+            font-size: 10px;
+            line-height: 11px;
+        }
+    }
+
+    &__number {
+        font-size: 18px;
+        line-height: 17px;
+    }
+    @media (max-width: 320px) {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
